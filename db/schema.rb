@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2021_10_15_021145) do
+=======
+ActiveRecord::Schema.define(version: 2021_10_13_071807) do
+>>>>>>> 0cc719f (Chapter 6: Modeling users)
 
   create_table "users", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.string "name"
@@ -18,7 +22,10 @@ ActiveRecord::Schema.define(version: 2021_10_15_021145) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.string "password_digest"
+<<<<<<< HEAD
     t.string "remember_digest"
+=======
+>>>>>>> 0cc719f (Chapter 6: Modeling users)
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 
