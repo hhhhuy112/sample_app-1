@@ -1,1 +1,4 @@
-# empty
+uica:
+  name: Ui CA
+  email: uica@gmail.com
+  password_digest: <%= User.digest('password') %>
