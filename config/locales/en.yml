@@ -16,6 +16,7 @@ en:
     logout: "Log out"
     signup_now: "Sign up now!"
     new_user: "New user?"
+    remember_me: "Remember me on this computer"
   activerecord:
     attributes:
       user:
