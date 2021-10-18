@@ -7,6 +7,11 @@ ruby '2.6.6'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
 # Use to hash password
 gem 'bcrypt', '3.1.13'
+# Use to create fake data
+gem 'faker', '2.1.2'
+# Use to create pagination
+gem 'will_paginate', '3.1.8'
+gem 'bootstrap-will_paginate', '1.0.0'
 # Use mysql as the database for Active Record
 gem 'mysql2', '~> 0.5'
 # Use Puma as the app server
