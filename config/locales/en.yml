@@ -17,12 +17,17 @@ en:
     signup_now: "Sign up now!"
     new_user: "New user?"
     remember_me: "Remember me on this computer"
+    edit_user: "Edit user"
+    update_user_profile: "Update your profile"
+    all_users: "All users"
+    delete: "delete"
   activerecord:
     attributes:
       user:
         name: "Name"
         email: "Email"
         password: "Password"
+        password_confirmation: 'Password confirmation'
   users:
     index:
       count:
@@ -32,6 +37,7 @@ en:
     confirmation: "Confirmation"
     submit:
       create: 'Create my account'
+      save: 'Save changes'
   contents:
     home: 'This is the home page for the <a href="https://www.railstutorial.org/">
           Ruby on Rails Tutorial</a> sample application.'
@@ -64,6 +70,8 @@ en:
     pls_login: 'Please log in.'
     invalid_login_info: 'Invalid email/password combination'
     account_not_activated: "Account not activated. </br> Check your email for the activation link."
+    delete_confirm: "Are you sure?"
+    user_not_exist: "User not exist"
   mailer:
     subject: 'Account activation'
     main_title: 'Sample Application'
