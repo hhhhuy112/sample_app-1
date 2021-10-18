@@ -10,6 +10,7 @@ gem 'mysql2', '~> 0.5'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets
+gem 'bootstrap-sass', '3.4.1'
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 5.0'
@@ -28,6 +29,9 @@ gem 'jbuilder', '~> 2.7'
 # Install minitest for testing
 gem 'minitest', group: :test
 gem 'minitest-reporters', group: :test
+
+# Install contoller for integration testing
+gem 'rails-controller-testing'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
