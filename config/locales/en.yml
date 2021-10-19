@@ -5,10 +5,20 @@ en:
     about: "About"
     contact: "Contact"
     help: "Help"
-    welcome: "Welcome to the Sample Ap"
+    welcome: "Welcome to the Sample App"
     signup: "Sign up"
     news: "News"
     login: "Log in"
+  activerecord:
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+  form:
+    confirmation: "Confirmation"
+    submit:
+      create: 'Create my account'
   contents:
     home: 'This is the home page for the <a href="https://www.railstutorial.org/">
           Ruby on Rails Tutorial</a> sample application.'
@@ -32,5 +42,3 @@ en:
     signup: 'This will be a signup page for new users.'
     footer: 'The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
             by <a href="#">UiCA</a>'
-
-  
