@@ -9,12 +9,24 @@ en:
     signup: "Sign up"
     news: "News"
     login: "Log in"
+    user: "Users"
+    account: "Acount"
+    profile: "Profile"
+    setting: "Settings"
+    logout: "Log out"
+    signup_now: "Sign up now!"
+    new_user: "New user?"
   activerecord:
     attributes:
       user:
         name: "Name"
         email: "Email"
         password: "Password"
+  users:
+    index:
+      count:
+        one: "The form contains %{count} error"
+        other: "The form contains %{count} errors"
   form:
     confirmation: "Confirmation"
     submit:
@@ -42,3 +54,16 @@ en:
     signup: 'This will be a signup page for new users.'
     footer: 'The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
             by <a href="#">UiCA</a>'
+  messages:
+    activated: 'Account activated!'
+    invalid_activate_link: 'Invalid activation link'
+    check_email: 'Please check your email to activate your account.'
+    profile_update: 'Profile updated'
+    user_delete: 'User deleted'
+    pls_login: 'Please log in.'
+    invalid_login_info: 'Invalid email/password combination'
+    account_not_activated: "Account not activated. </br> Check your email for the activation link."
+  mailer:
+    subject: 'Account activation'
+    main_title: 'Sample Application'
+    activate_content: 'Welcome to the Sample App! Click on the link below to activate your account:'
