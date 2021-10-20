@@ -4,6 +4,7 @@ en:
     forget_psw: 'Forgot password'
     update_psw: 'Update password'
     confirmation: 'Confirmation'
+    micropost_feed: 'Micropost Feed'
   messages:
     activated: 'Account activated!'
     invalid_activate_link: 'Invalid activation link'
@@ -18,6 +19,14 @@ en:
     can_be_empty: "can't be empty"
     psw_has_reset: 'Password has been reset.'
     psw_reset_expired: 'Password reset has expired.'
+    micropost:
+      created: 'Micropost created'
+      deleted: 'Micropost deleted'
+      placeholder: 'Compose new micropost...'
+      posted: 'Posted'
+      valid_format: 'must be a valid image format'
+      less_than_5mb: 'should be less than 5MB'
+      file_size_alert: 'Maximum file size is 5MB. Please choose a smaller file.'
   mailer:
     activation: 'Account activation'
     activate: 'Activate'

@@ -5,6 +5,13 @@ ruby '2.6.6'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
+# Use for image processing
+gem 'image_processing', '1.9.3'
+gem 'mini_magick', '4.9.5'
+# Use for Active Storage
+gem 'active_storage_validations', '0.8.2'
+# Use to resize image
+gem 'rmagick', '~> 4.1'
 # Use to hash password
 gem 'bcrypt', '3.1.13'
 # Use to create fake data
