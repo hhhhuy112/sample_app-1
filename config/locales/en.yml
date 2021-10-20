@@ -1,4 +1,9 @@
 en:
+  titles:
+    submit: 'Submit'
+    forget_psw: 'Forgot password'
+    update_psw: 'Update password'
+    confirmation: 'Confirmation'
   messages:
     activated: 'Account activated!'
     invalid_activate_link: 'Invalid activation link'
@@ -8,7 +13,19 @@ en:
     pls_login: 'Please log in.'
     invalid_login_info: 'Invalid email/password combination'
     account_not_activated: "Account not activated. </br> Check your email for the activation link."
+    email_sent: 'Email sent with password reset instructions'
+    email_not_found: 'Email address not found'
+    can_be_empty: "can't be empty"
+    psw_has_reset: 'Password has been reset.'
+    psw_reset_expired: 'Password reset has expired.'
   mailer:
-    subject: 'Account activation'
-    main_title: 'Sample Application'
+    activation: 'Account activation'
+    activate: 'Activate'
+    psw_reset: 'Password reset'
+    reset_psw: 'Reset password'
+    activate_title: 'Sample Application'
     activate_content: 'Welcome to the Sample App! Click on the link below to activate your account:'
+    psw_reset_direction: 'To reset your password click the link below:'
+    psw_reset_expire: 'This link will expire in two hours.'
+    psw_reset_content: 'If you did not request your password to be reset, please ignore this email 
+                    and your password will stay as it is.'
